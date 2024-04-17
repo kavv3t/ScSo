@@ -1,0 +1,35 @@
+.chapitre1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px black;
+  width: 600px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+h2 {
+  text-decoration: underline;
+  padding-top: 10px;
+  display: grid;
+  justify-content: center;
+}
+
+h5 {
+  display: grid;
+  justify-content: center;
+  font-size: 14px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+u {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}

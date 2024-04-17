@@ -1,0 +1,219 @@
+main {
+  display: grid;
+  border: solid 2px black;
+  margin: 180px 100px 0px 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.general-grid {
+  display: grid;
+  grid-template-rows: 1fr 650px;
+  justify-content: center;
+  align-items: center;
+}
+
+.general-text {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  font-size: 20px;
+  list-style: decimal;
+  padding-top: 20px;
+}
+
+nav {
+  border: solid 2px black;
+  border-style: dashed;
+  display: grid;
+  align-items: start;
+  justify-content: center;
+  width: auto;
+  padding: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.repert {
+  display: grid;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.index {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.indextext {
+  border: solid 2px black;
+  border-radius: 15px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 0;
+  width: 80px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 2px black;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.indextext:hover {
+  box-shadow: inset 0px 0px 2px black, 0px 2px black;
+}
+
+.indextext:active {
+  translate: 0px 2px;
+  box-shadow: inset 0px 0px 2px black;
+  transition: 0.1s;
+}
+
+.allbars {
+  display: grid;
+  grid-template-rows: 20px 1fr;
+  justify-content: center;
+}
+
+.toptext {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 30px;
+  padding: 10px 20px 10px 20px;
+}
+
+.list {
+  border: solid 2px black;
+  border-radius: 15px;
+  padding: 20px 10px 20px 10px;
+}
+
+.titlelist {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.move1 {
+  margin-right: 20px;
+}
+
+.move2 {
+  margin-left: 20px;
+}
+
+.left {
+  margin-right: 30px;
+}
+
+.right {
+  margin-left: 30px;
+}
+
+.alls {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px black;
+  border-radius: 15px;
+  box-shadow: 2px 2px black;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  width: 80px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.alls:hover {
+  box-shadow: inset 0px 0px 2px rgb(0, 0, 0), 2px 2px black;
+  transition: 0.1s;
+}
+
+.alls:active {
+  box-shadow: inset 0px 0px 2px black;
+  translate: 2px 2px;
+  transition: 0.1s;
+}
+
+.sources {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px black;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.textSources {
+  display: grid;
+  justify-content: center;
+}
+
+.cachem,
+.galilée,
+.roi {
+  border: solid 2px black;
+  border-radius: 15px;
+  box-shadow: 2px 2px black;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  width: 80px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.cachem:hover,
+.galilée:hover,
+.roi:hover {
+  box-shadow: inset 0px 0px 2px rgb(0, 0, 0), 2px 2px black;
+  transition: 0.1s;
+}
+
+.cachem:active,
+.galilée:active,
+.roi:active {
+  box-shadow: inset 0px 0px 2px black;
+  translate: 2px 2px;
+  transition: 0.1s;
+}
+
+.cachem {
+  margin-right: 10px;
+}
+
+.galilée,
+.roi {
+  width: 100px;
+}
+
+.roi {
+  margin-left: 10px;
+}
